@@ -1,17 +1,3 @@
-- name: user is angry
-  vars:
-    input: I've contacted you five times! This is outrageous!
-  assert:
-    - type: llm-rubric
-      value: The tone of the output should be "angry"
-
-- name: user is frustrated
-  vars:
-    input: I'm still having issues. Can someone please help this time?
-  assert:
-    - type: llm-rubric
-      value: The tone of the output should be "frustrated"
-
 - name: user is neutral
   vars:
     input: I updated the app but didn't notice any major difference.

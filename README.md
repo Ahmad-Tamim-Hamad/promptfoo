@@ -34,7 +34,7 @@ git clone https://github.com/Ahmad-Tamim-Hamad/promptfoo
 Navigate to the directory 
 
 ```bash
-cd prompt-foo
+cd promptfoo
 ```
 
 #### Install all the packages from requirments.txt file
