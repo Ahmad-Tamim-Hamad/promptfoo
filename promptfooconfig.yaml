@@ -1,0 +1,13 @@
+displayPrompt: file
+
+prompts:
+  - file://prompts/prompt-v1.txt
+  - file://prompts/prompt-v2.txt
+  - file://prompts/prompt-v3.txt
+
+providers:
+  - file://providers/openai.yaml
+
+tests:
+  - file://tests/tone-classifier-test.yaml
+

@@ -1,0 +1,12 @@
+Classify the emotional tone of this customer message as one of the following:
+
+- angry
+- frustrated
+- neutral
+- satisfied
+- grateful
+
+Return only the tone label.
+
+Message: {{input}}  
+Tone:

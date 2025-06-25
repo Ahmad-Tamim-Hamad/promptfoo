@@ -1,0 +1,21 @@
+Classify the tone of the customer message.
+
+Examples:
+Message: "I’ve been waiting for days and this is completely unacceptable!"  
+Tone: angry
+
+Message: "This is the third time I’ve contacted you. Why is no one fixing this?"  
+Tone: frustrated
+
+Message: "The product works as described. Thanks."  
+Tone: neutral
+
+Message: "Thanks, your support team really helped me quickly."  
+Tone: satisfied
+
+Message: "You’ve been amazing. I truly appreciate your fast help!"  
+Tone: grateful
+
+Now classify the following:
+Message: "{{input}}"  
+Tone:
