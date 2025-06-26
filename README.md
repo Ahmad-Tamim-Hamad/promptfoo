@@ -1,6 +1,8 @@
 
 # Tone Classifier Prompt Evaluation – Promptfoo
 
+## Promptfoo is a framework designed to help you evaluate the performance of your LLM. Just like you write unit tests to check if individual functions in your code work correctly, Promptfoo lets you test and validate prompts to ensure your language model behaves as expected. This project shows how Promptfoo works and provides a repository to help you set it up for your own LLM workflows.
+
 This project evaluates different prompt versions for **emotion/tone classification** in customer support messages using [Promptfoo](https://github.com/promptfoo/promptfoo). It compares how well different prompts and LLMs (e.g. GPT-4.1, GPT-3.5-turbo) can identify tones like `angry`, `frustrated`, `neutral`, `satisfied`, and `grateful`.
 
 ---
